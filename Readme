@@ -1,2 +1,12 @@
 Ini adalah coding untuk machine learning 101 sharinf session, siapa saja bisa mengakses kode
 kode ini adalah merupakan adaptasi dari akun mas Radical Rachman Wahid (https://github.com/Rakhid16/sbypy-flask-sklearn)
+
+## untuk menjalankan kode
+1. git clone atau donwload folder ini (pojok kanan)
+2. kemudian pastikan sckit-learn dan flask sudah terinstall
+3. panstikan menggunaka virtualenvitrotment untuk menghindari konflik pada tiap paket
+4. install jupyter notebook untuk melihat model
+5. jika sudah semua maka tinggal menjalankan main code yaitu 'python main.py'
+6. flask akan otomatis berjalan pada 'localhost:5000'
+7. model siap digunakan.
+8. jika ingin edit model maka tinggal jalankan 'modeling.ipynb' di jupyter notebook
