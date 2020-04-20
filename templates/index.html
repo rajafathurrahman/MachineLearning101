@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ML model on website</title>
+  </head>
+  
+  <body>
+    <h1>Website ini ada model <i>machine learnning</i>'nya</h1>
+    <i>Modeling</i> dapat dilihat di <a href="{{ url_for('modeling') }}">sini</a>.<br><br>
+    
+    <form method="POST">
+      Panjang kelopak : <input name="palo" placeholder="in cm"><br>
+      Lebar kelopak : <input name="lelo" placeholder="in cm"><br>
+      Panjang mahkota : <input name="pako" placeholder="in cm"><br>
+      Lebar mahkota : <input name="leko" placeholder="in cm"><br><br>
+      <input type="submit">
+    </form><br>
+
+    Hasilnya adalah : {{ hasil }}
+    
+  </body>
+</html>
